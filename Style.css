@@ -341,3 +341,100 @@ fieldset{
 	width: 100%;
 	height: 100%;
   }
+  .formulaire{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  }
+  .formulaire-content{
+	width: 92%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  form{
+
+	width: 33%;
+  }
+  fieldset{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	flex-direction: column;
+	background-color: rgba(192, 192, 192, 0.242);
+	box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+	border-radius: 20px;
+	margin-bottom: 25px;
+	border: none;
+  }
+  .names input{
+	height: 30px;
+	margin-bottom: 10px;
+	outline: none;
+	width: 100%;
+	border: none;
+	border-radius: 8px;
+  }
+  .dates input{
+	height: 30px;
+	margin-bottom: 10px;
+	outline: none;
+	width: 80%;
+  }
+  .names2 input{
+	height: 30px;
+	margin-bottom: 10px;
+  }
+  .names2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+  }
+  .envoyer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .envoyer button{
+	padding: 10px 30px;
+	color: white;
+	background-color: #4a9ca2;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+  }
+  .envoyer input{
+	padding: 10px 40px;
+	color: white;
+	background-color: #4a9ca2;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+  }
+  .envoyer button:hover{
+	padding: 10px 40px;
+	color: #000;
+	background-color: #4a9ca2;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	transition: 1s;
+  }
+  .envoyer input:hover{
+	padding: 10px 50px;
+	color: #000;
+	background-color: #4a9ca2;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	transition: 1s;
+  }
+  .invitation{
+	text-align: center;
+	text-align: justify;
+  }
